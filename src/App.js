@@ -14,7 +14,7 @@ import { Timeline } from '@material-tailwind/react';
 import TimelineComponent from './components/Timeline/Timeline';
 import HorizontalTimeline from './components/Timeline/Timeline';
 import Prizes from './components/Prizes/Prizes';
-
+import Carousel from './components/carousel/carousel';
 function App() {
   return (
    <>
@@ -25,6 +25,7 @@ function App() {
    <div className='mt-12'>
     <Hero/>
     <AboutSection/>
+    <Carousel/>
     <Prizes/>
     <Challenges/>
     <SpeakersNew/>
