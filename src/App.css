@@ -1,1 +1,7 @@
- 
+html
+{
+  cursor: none;
+  /*  change coursor */
+  cursor: url(https://static1.squarespace.com/static/56eadb72d51cd4a1f93f5e10/t/61cf76479673080e2fa33a8f/1640986183767/CursorFinal.png), auto;
+  
+}
