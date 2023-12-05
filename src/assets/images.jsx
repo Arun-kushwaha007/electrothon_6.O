@@ -5,6 +5,9 @@ import headerimg from "../assets/images/headerimg.png"
 import chamkadar from "../assets/images/chamkadar.png"
 import man_demo from "../assets/images/man_demo.png"
 import back_demo from "../assets/images/demo_back.png" 
+import phy_demo from "../assets/images/phy_demo.png"
+import phy_l_demo from "../assets/images/phy_l_demo.png"
+import l_demo from "../assets/images/demo_l.png"
 
 export {
     bg
@@ -13,5 +16,8 @@ export {
     headerimg,
     chamkadar,
     man_demo,
-     back_demo
+     back_demo,
+     phy_demo,
+     phy_l_demo,
+     l_demo
 };

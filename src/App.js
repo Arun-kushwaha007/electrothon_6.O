@@ -34,7 +34,7 @@ function App() {
     <Theme/>
     <Organising_team/>
  
-    <Carousel/>
+    {/* <Carousel/> */}
  
     <Prizes/>
     <Challenges/>
