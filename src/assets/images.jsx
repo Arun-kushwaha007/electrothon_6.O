@@ -3,12 +3,15 @@ import bg2 from "../assets/images/bg2.jpg"
 import bg3 from "../assets/images/bg3.jpg"
 import headerimg from "../assets/images/headerimg.png"
 import chamkadar from "../assets/images/chamkadar.png"
-
+import man_demo from "../assets/images/man_demo.png"
+import back_demo from "../assets/images/demo_back.png" 
 
 export {
     bg
     ,bg2,
     bg3,
     headerimg,
-    chamkadar
+    chamkadar,
+    man_demo,
+     back_demo
 };
