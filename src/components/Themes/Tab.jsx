@@ -1,21 +1,39 @@
-// src/components/Tabs.js
 import React from 'react';
 
 const Tabs = ({ activeTab, onTabClick }) => {
-  const tabs = ['Tab 1', 'Tab 2', 'Tab 3']; // Add tab names as needed
+  const tabs = [
+    'Physical Infrastructure Networks',
+    'Artificial Intelligence',
+    'Finance & Payments',
+    'Gaming & Entertainment',
+    'Mobile Consumer Apps',
+    'Crypto Infrastructure',
+    'DAOs & Network States',
+  ];
 
   return (
-    <div className="flex">
+    <div className="flex flex-wrap mx-24 pt-9   "
+    style={{width:"60%"}}
+    >
       {tabs.map((tab, index) => (
-        <div
-          key={index}
-          className={`cursor-pointer py-2 px-4 ${
-            activeTab === index ? 'bg-blue-500 text-white' : 'bg-gray-300'
-          }`}
-          onClick={() => onTabClick(index)}
-        >
-          {tab}
-        </div>
+        <React.Fragment key={index}>
+          <div className="w-full flex flex-basis sm:w-1/3 mb-6">
+            <div className="text-white">||</div>
+            <div
+              className={`cursor-pointer py-2 px-4 border rounded-md  ${
+                activeTab === index ? 'bg-white text-black' : 'text-white'
+              }`}
+              style={{
+                maxWidth: '100%',
+                   
+              }}
+              onClick={() => onTabClick(index)}
+            >
+              {tab}
+            </div>
+            <div className="text-white">||</div>
+          </div>
+        </React.Fragment>
       ))}
     </div>
   );
