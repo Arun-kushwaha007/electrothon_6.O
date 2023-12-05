@@ -60,3 +60,17 @@
     width: 250px;
   }
 }
+@media (max-width: 768px) 
+{
+  .slider {
+    width: 100%;
+  }
+  .slide-track {
+    width: calc(250px * 14);
+  }
+  .slide {
+    height: 100px;
+    width: 250px;
+    font-size: 8px;
+  }
+}
