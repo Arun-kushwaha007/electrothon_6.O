@@ -78,7 +78,7 @@ const Challenges = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="lg:w-1/3  text-center p-2 mx-auto lg:ml-6 text-base border-2 border-gray-200 rounded-md cursor-pointer hover:bg-gray-200 hover:border-gray-200 hover:text-black w-3/4">
+                      <div className="lg:w-1/3  bloop text-center p-2 mx-auto lg:ml-6 text-base border-2 border-gray-200 rounded-md cursor-pointer hover:bg-gray-200 hover:border-gray-200 hover:text-black w-3/4">
                         More Details
                       </div>
                     </a>
