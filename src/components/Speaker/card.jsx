@@ -61,7 +61,7 @@ const Card = ({ props }) => {
                 target="_blank"
               >
                 <FontAwesomeIcon
-                  className="text-xl md:text-2xl text-white hover:text-[#0A66C2] fill-current mx-1 p-1 ease-in-out duration-200"
+                  className="text-xl md:text-2xl text-white bloop hover:text-[#0A66C2] fill-current mx-1 p-1 ease-in-out duration-200"
                   icon={faLinkedinIn}
                 />
               </a>
@@ -71,7 +71,7 @@ const Card = ({ props }) => {
             {props.insta ? (
               <a href={props.insta} rel="noreferrer noopenor" target="_blank">
                 <FontAwesomeIcon
-                  className="text-xl md:text-2xl text-white hover:text-[#d62976] fill-current mx-1 p-1 ease-in-out duration-200"
+                  className="text-xl md:text-2xl bloop text-white hover:text-[#d62976] fill-current mx-1 p-1 ease-in-out duration-200"
                   icon={faInstagram}
                 />
               </a>
@@ -85,7 +85,7 @@ const Card = ({ props }) => {
                 target="_blank"
               >
                 <FontAwesomeIcon
-                  className="text-xl md:text-2xl text-white hover:text-[#3b5998] fill-current mx-1 p-1 ease-in-out duration-200"
+                  className="text-xl md:text-2xl bloop text-white hover:text-[#3b5998] fill-current mx-1 p-1 ease-in-out duration-200"
                   icon={faFacebook}
                 />
               </a>
@@ -95,7 +95,7 @@ const Card = ({ props }) => {
             {props.twitter ? (
               <a href={props.twitter} rel="noreferrer noopenor" target="_blank">
                 <FontAwesomeIcon
-                  className="text-xl md:text-2xl text-white hover:text-[#00acee] fill-current mx-1 p-1 ease-in-out duration-200"
+                  className="text-xl md:text-2xl  bloop text-white hover:text-[#00acee] fill-current mx-1 p-1 ease-in-out duration-200"
                   icon={faTwitter}
                 />
               </a>
