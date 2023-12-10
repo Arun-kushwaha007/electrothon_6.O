@@ -10,17 +10,23 @@ import Footer from './components/Footer/footer';
 import Challenges from './components/Challenges/Challenges';
 import SpeakersNew from './components/Speaker/speaker';
 import FlippingCard from './components/Organising_Team/Single_Card';
-import { Timeline } from '@material-tailwind/react';
-import TimelineComponent from './components/Timeline/Timeline';
-import HorizontalTimeline from './components/Timeline/Timeline';
+
+import Timeline from './components/Timeline/Timeline';
+// import { Timeline } from '@material-tailwind/react';
+// import TimelineComponent from './components/Timeline/Timeline';
+// import HorizontalTimeline from './components/Timeline/Timeline';
+
 import Prizes from './components/Prizes/Prizes';
- 
+
 import Organising_team from './components/Organising_Team/Organising_team';
 import Theme from './components/Themes/Theme';
  
 import Carousel from './components/carousel/carousel';
+
+
  
 function App() {
+
   return (
    <>
     <div className="relative z-0 bg-primary">
@@ -31,6 +37,11 @@ function App() {
     <Hero/>
     <AboutSection/>
  
+    <Timeline/>
+
+      
+
+    
     <Theme/>
     <Organising_team/>
  
